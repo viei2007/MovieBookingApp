@@ -1,0 +1,46 @@
+{
+  "info": {
+    "name": "Movie Booking API",
+    "_postman_id": "12345678-1234-1234-1234-123456789012",
+    "description": "Collection to test movie booking show search",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Search Shows",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/v1/shows/search?movie=Inception&city=Mumbai&date=2025-05-16",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "shows",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "movie",
+              "value": "Inception"
+            },
+            {
+              "key": "city",
+              "value": "Mumbai"
+            },
+            {
+              "key": "date",
+              "value": "2025-05-16"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
